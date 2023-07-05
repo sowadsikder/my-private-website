@@ -1,0 +1,970 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{margin: 0;padding: 0;}
+body {font-family: 'Work Sans', sans-serif; font-size: 16px}
+h1,h2,h3,h4,h5,h6{font-family: 'Oswald', sans-serif; font-weight: 500;}
+section{padding: 80px 0px}
+
+/*=============================================
+	=            topBar          =
+	=============================================*/
+	
+	
+.topBar {
+    background: #f2f2f2;
+}
+
+.phone {
+    width: 230px;
+    float: left;
+    padding: 10px 15px;
+    border-left: 1px solid #ddd;
+}
+
+.phone i {
+    color: #fb5200;
+}
+
+.email {
+    width: 700px;
+    float: left;
+    padding: 10px 15px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.email i {
+    color: #fb5200;
+}
+
+.topBarWrapper {
+    overflow: hidden;
+}
+
+.socialIcons {
+    width: 180px;
+    float: left;
+}
+
+.socialIcons a {
+    padding: 15px;
+    color: #2b2b2b;
+    display: block;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+.socialIcons a:hover{
+	color: #fb5200;
+}
+	
+/*=====  End of topBar ======*/
+
+
+/*=============================================
+	=           nav section           =
+=============================================*/
+		
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+}
+
+.menu {
+    width: 960px;
+    float: left;
+}
+
+
+ul.mainMenuItem li {
+    float: left;
+}
+
+ul.mainMenuItem li a {
+    float: right;
+}
+
+ul.mainMenuItem {
+	float: right;
+	list-style: none;
+}
+
+ul.mainMenuItem li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Oswald';
+    display:block;
+    text-transform: uppercase;
+    color: #333;
+    padding: 30px 15px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+ul.mainMenuItem li a:hover{
+	color: #fb5200;
+}
+		
+/*=====  End of nav Section  ======*/
+
+/*=============================================
+=           Slider Section comment block            =
+=============================================*/
+
+section.slider {
+    padding: 0px;
+}
+
+section.slider {
+    background: url(../image/slide-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.sliderWrapper h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.sliderWrapper {
+    color: white;
+    width: 600px;
+}
+
+.sliderWrapper p {
+    width: 465px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+button.workus {
+    padding: 15px 25px;
+    background: #fb5200;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Oswald';
+    margin: 20px 0px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+button.btn:hover{
+	background: #444;
+	color: white;
+}
+
+.sliderBar {
+    width: 200px;
+    padding: 40px;
+    margin: auto;
+}
+
+.sliderBar span {
+    border: 2px solid #ddd;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 100%;
+    float: left;
+    margin: 5px 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sliderBar span:last-child{
+	background: #fb5200;
+	border-color: #fb5200; 
+}
+
+/*=====  End of Slider Section comment block  ======*/
+
+/*=============================================
+=           Services Section comment block            =
+=============================================*/
+
+section.services {
+    background: #f6f5f5;
+}
+
+.boxWrapper {
+    overflow: hidden;
+}
+
+.singleBox {
+    width: 254px;
+    background: white;
+    padding: 15px;
+    float: left;
+    margin-right: 25px;
+}
+
+.singleBox .boxIcons {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.singleBox .boxIcons i{
+	color: #fb5200;
+}
+
+.boxTittle{
+	text-align: center;
+}
+
+.boxTittle h2 {
+    font-size: 23px;
+    line-height: 30px;
+    color: #333333cf;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.boxDesc p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.boxlink {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxlink a {
+    text-decoration: none;
+    color: #fb5200;
+}
+
+.boxlink a i {
+    font-size: 10px;
+}
+
+.singleBox.\.sbactive {
+    background: #fb5200;
+}
+
+.singleBox.\.sbactive h2 {
+    color: white;
+}
+
+.singleBox.\.sbactive i {
+    color: white !important;
+}
+
+.singleBox.\.sbactive p {
+    color: white;
+}
+
+.singleBox.\.sbactive a {
+    color: white;
+}
+
+.singleBox:hover{
+	background: #fb5200;
+	cursor: pointer;
+}
+
+.singleBox:hover i{
+	color: white!important;
+}
+
+.singleBox:hover h2{
+	color: white;
+}
+
+.singleBox:hover p{
+	color: white;
+}
+
+.singleBox:hover .boxlink a{
+	color: white!important;
+}
+
+/*=====  End of Services Section comment block  ======*/
+
+/*=============================================
+=           Our Team Section comment block            =
+=============================================*/
+
+.ourTeamWrapper {
+    overflow: hidden;
+}
+
+.ourTeamImages {
+    width: 535px;
+    float: left;
+}
+
+.ourTeamImages img {
+    width: 100%;
+}
+
+.ourTeamDesc {
+    width: 535px;
+    float: right;
+}
+
+.ourTeamTittle h2 {
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 35px;
+	letter-spacing: -1.5px;
+	margin-bottom: 20px;
+}
+
+.ourTeamTittle p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+ul.teamLeftUl {
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 260px;
+}
+
+ul.teamLeftUl li{
+	line-height: 40px;
+}
+
+ul.teamLeftUl li a {
+    text-decoration: none;
+    color: #222222;
+}
+
+ul.teamLeftUl li a:hover{
+	color: #fb5200;
+}
+
+ul.teamRightUl {
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 260px;
+    }
+
+ul.teamRightUl li{
+	line-height: 40px;
+}
+
+ul.teamRightUl li a {
+    text-decoration: none;
+    color: #222222;
+}
+
+ul.teamRightUl li a:hover{
+	color: #fb5200;
+}
+
+.teamFactilies {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.teamBtn a {
+    padding: 15px 25px;
+    background: #fb5200;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.teamBtn a:hover{
+	background: #444;
+	color: white;
+}
+
+/*=====  End of Our Team Section comment block  ======*/
+
+/*=============================================
+=           Why Choose Us Section comment block            =
+=============================================*/
+
+section.whychooseus {
+    background: linear-gradient(#00000085,#00000085),url(../image/why-choose-us1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxSingle {
+    width: 210px;
+    float: left;
+    margin-right: 90px;
+    color: white;
+    text-align: center;
+}
+
+.whychooseusWrapper {
+    overflow: hidden;
+}
+
+.boxSingle h2 {
+    font-size: 45px;
+    font-family: arial black;
+    margin: 10px 0px;
+    font-weight: 900;
+}
+
+.boxSingleIcon {
+    font-size: 40px;
+    color: #fb5200;
+}
+
+.boxSingle h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.boxSingle:last-child{
+	margin-right: 0;
+}
+
+/*=====  End of Why Choose Us Section comment block  ======*/
+
+/*=============================================
+=           blog Section comment block            =
+=============================================*/
+
+section.blogPost {
+    background: #f6f5f5;
+}
+
+.secTittle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secTittle h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.secTittle h1:after {
+    content: "";
+    width: 70px;
+    background: #fb5200;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 4px solid #fb5200;
+    left: 50%;
+    transform: translateX(-35px);
+    top: 75px;
+    }
+
+.secTittle p {
+    width: 555px;
+    font-size: 17px;
+    margin: auto;
+    color: #666;
+    line-height: 25px;
+}
+
+.blogPostWrapper {
+    overflow: hidden;
+}
+
+.blogBox {
+    width: 250px;
+    overflow: hidden;
+    margin-right: 35px;
+    float: left;
+}
+
+.blogBox:last-child {
+    margin-right: 0;
+}
+
+.sblogImage img {
+    width: 100%;
+}.sblogImage {
+    margin-bottom: 20px;
+}
+
+.sblogDecs h3 {
+    text-transform: uppercase;
+}
+
+.sblogDecs p {
+    line-height: 23px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/*=====  End of Blog Section comment block  ======*/
+
+/*=============================================
+=           Plan Section comment block            =
+=============================================*/
+
+.singleTable h3 {
+    font-size: 25px;
+}
+
+.singleTable h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: arial black;
+    margin: 8px 0px;
+}
+
+.singleTable ul {
+    list-style: none;
+    padding-left:0; 
+}
+
+.singleTable ul li {
+    line-height: 40px;
+    color: #777;
+}
+
+.tableList {
+    display: table;
+    background: #fbfbfb;
+}
+
+.singleTable {
+    width: 345px;
+    float: left;
+    margin-right: 40px;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.singleTable:first-child{
+	box-shadow: -20px 0px 10px #f6f6f6;
+}
+
+.singleTable:last-child {
+    margin-right: 0px;
+    box-shadow:20px 0px 10px #f6f6f6;
+}
+
+.singleTable h1 span {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: arial;
+}
+
+.singleTable ul li i {
+    font-size: 12px;
+    color: #fb5200;
+}
+
+button.get{
+	padding: 15px 25px;
+    background: #fb5200;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Oswald';
+    margin: 20px 0px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+button.get:hover{
+	background: #444;
+	color: white;
+}
+
+/*=====  End of plan Section comment block  ======*/
+
+/*=============================================
+=           Latest Section comment block            =
+=============================================*/
+
+section.latestIdeas {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+.leftImg {
+    background: url(../image/s02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.leftImg {
+    width: 50%;
+    position: absolute;
+    float: left;
+    top: 0;
+    height: 100%;
+    left: 0;
+}
+
+.rightContants {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    background: #222222;
+    color: white;
+}
+
+.leftImg img {
+    width: 100%;
+}
+
+.rcontantTittle {
+    padding: 70px 40px 70px 70px;
+}
+
+.rcontantTittle h2 {
+    font-size: 35px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.rcontantTittle p {
+    line-height: 27px;
+    margin-bottom: 0px;
+}
+
+.rcontantIcons {
+    padding: 0px 70px;
+}
+
+.iconSingle {
+    width: 245px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.rIcon {
+	width: 70px;
+	font-size: 60px;
+	overflow: hidden;
+	float: left;
+	color: #fb5200;
+	margin-top: -16px;
+}
+
+.rTitttle {
+    width: 175px;
+    overflow: hidden;
+    float: right;
+}
+
+.rTitttle h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.rTitttle {
+    font-size: 14px;
+}
+
+/*=====  End of latest Section comment block  ======*/
+
+/*=============================================
+=           Team Section comment block            =
+=============================================*/
+
+.ourteamPerson {
+    overflow: hidden;
+}
+
+.singlePerson {
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    margin-right: 25px;
+}
+
+.spImg {
+    overflow: hidden;
+    position: relative;
+}
+
+.spImg img {
+    width: 100%;
+    transition: .5s;
+}
+
+.sIcons {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    left: 50%;
+    width: 170px;
+    transform: translateX(-50%);
+}
+
+.sIcons a {
+     width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: block;
+    place-items: center;
+    overflow: hidden;
+    display: grid;
+    float: left;
+}
+
+.singlePerson:last-child{
+    margin-right: 0;
+}
+
+.personInfo {
+    padding: 22px 15px;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-right:  1px solid #ddd; 
+    border-bottom: 1px solid #ddd;
+}
+
+.personInfo h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.personInfo p {
+    font-size: 15px;
+    margin-top: 6px;
+    color: #777;
+}
+
+.sIcons a:first-child {
+    background: #3b5998;
+	opacity:0;
+	transition: .90s;
+}
+
+.sIcons a:nth-child(2){
+	background: #00ACEE;
+	opacity: 0;
+	transition: .70s;
+}
+
+.sIcons a:nth-child(3){
+    background: #DB4A39;
+	opacity:0;
+	transition: .50s;
+}
+
+.sIcons a:last-child {
+    background: #0E76A8;
+	opacity:0;
+	transition: .30s;
+}
+
+.sIcons a:hover {
+    background:white;
+	color:#333;
+}
+
+.singlePerson:hover .sIcons a:first-child{
+	transform:translateY(20px);
+	opacity:1;
+}
+
+.singlePerson:hover .sIcons a:nth-child(2){
+	transform:translateY(20px);
+	opacity: 1;
+}
+
+.singlePerson:hover .sIcons a:nth-child(3){
+	transform:translateY(20px);
+	opacity:1;
+}
+
+.singlePerson:hover .sIcons a:last-child{
+	transform:translateY(20px);
+	opacity:1;
+}
+
+.singlePerson:hover .personImg img{
+	transform:scale(1.08);
+}
+.singlePerson:hover{
+	cursor:pointer;
+}
+
+.joinOurTeam {
+    margin-top: 45px;
+    display: grid;
+    place-items: center;
+}
+
+.joinOurTeam button {
+    padding: 15px 35px;
+    border: none;
+    background: #222;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.joinOurTeam button:hover{
+	background: #fb5200;
+}
+
+/*=====  End of Team Section comment block  ======*/
+
+/*=============================================
+=           Projects Section comment block            =
+=============================================*/
+
+section.project {
+    background: #f5f6f6;
+}
+
+.singleProject {
+    width: 342px;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.singleProject img {
+    width: 100%;
+}
+
+.projectInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 30px;
+    padding-bottom: 0;
+    overflow: hidden;
+    color: white;
+    background: linear-gradient( to top, black, transparent 160px);
+}
+
+.projectMeta {
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.projectMeta a {
+    color: white;
+    font-weight: 900;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.projectMeta h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+a.learn {
+    color: white;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    transform: translateX(-150px);
+    font-size: 16px;
+    visibility: hidden;
+}
+
+.singleProject:hover a.learn {
+    visibility: visible;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    transition-timing-function: ease-in;
+    transform: translateX(0px)!important;
+}
+
+.singleProject:last-child {
+   margin-right:0px;
+}
+
+.projectWrapper {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.learn i {
+    font-size: 10px;
+}
+
+.singleProject:hover .projectInfo{
+	padding:40px 30px!important;
+	background: linear-gradient(to top, black, transparent 200px) !important;
+}
+
+/*=====  End of Projects Section comment block  ======*/
+
+/*=============================================
+=           Team Section comment block            =
+=============================================*/
+
+/*=====  End of Team Section comment block  ======*/
+
+/*=============================================
+=           Team Section comment block            =
+=============================================*/
+
+/*=====  End of Team Section comment block  ======*/
+
+/*=============================================
+=           Team Section comment block            =
+=============================================*/
+
+/*=====  End of Team Section comment block  ======*/
+
+/*=====  End of Team Section comment block  ======*/
+
+/*=============================================
+=           Team Section comment block            =
+=============================================*/
+
+/*=====  End of Team Section comment block  ======*/
+
+/*=============================================
+=           Team Section comment block            =
+=============================================*/
+
+/*=====  End of Team Section comment block  ======*/
+
+/*=============================================
+=           Team Section comment block            =
+=============================================*/
+
+/*=====  End of Team Section comment block  ======*/
